@@ -90,6 +90,46 @@ label:hover {
     background: aliceblue;
 }
 
+#circle1:checked ~ .slide1 {
+    margin-left: 0;
+}
+  
+#circle1:checked ~ .slide-circles .label1 {
+    border: 0.06rem solid aliceblue;
+    background: none;
+}
+  
+#circle1:not(:checked) ~ .slide1 .phrase1 {
+    display: none;
+}
+  
+#circle2:checked ~ .slide2 {
+    margin-left: -100%;
+}
+  
+#circle2:checked ~ .slide-circles .label2 {
+    border: 0.06rem solid aliceblue;
+    background: none;
+}
+  
+#circle3:checked ~ .slide3 {
+    margin-left: -200%;
+}
+
+#circle3:checked ~ .slide-circles .label3 {
+    border: 0.06rem solid aliceblue;
+    background: none;
+}
+  
+#circle4:checked ~ .slide4 {
+    margin-left: -300%;
+}
+  
+#circle4:checked ~ .slide-circles .label4 {
+    border: 0.06rem solid aliceblue;
+    background: none;
+}
+
 
 
 
