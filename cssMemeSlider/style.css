@@ -130,6 +130,51 @@ label:hover {
     background: none;
 }
 
+/* start media queries 69rem */
+@media screen and (max-width: 69rem) {
+    .slider {
+      height: auto;
+      width: 70%;
+    }
+}
+/* end media queries 69rem */
+
+/* start media queries 49rem */
+@media screen and (max-width: 49rem) {
+    .slider {
+      height: auto;
+      width: 90%;
+    }
+  
+    .phrase {
+      font-size: 1rem;
+      font-family: 'Times New Roman', Times, serif;
+      width: 50%;
+    }
+}
+/* end media queries 49rem */
+
+/* start media queries 33rem */
+@media screen and (max-width: 33rem) {
+    img {
+      height: 12.5rem;
+    }
+  
+    .phrase {
+      top: 1.9rem;
+      width: 100%;
+      position: relative;
+    }
+  
+    .slide-circles {
+      top: 13.4rem;
+      width: inherit;
+      margin: auto;
+      justify-content: center;
+    }
+}
+/* end media queries 33rem */
+
 
 
 
